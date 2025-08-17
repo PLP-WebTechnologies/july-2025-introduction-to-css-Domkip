@@ -1,0 +1,115 @@
+/* 
+   Reset and Global Styles
+*/
+* {
+  box-sizing: border-box; /* ensures padding & border don’t add to width */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/*
+   Header
+*/
+header {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+/*
+   Navigation
+*/
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #e6f0ff;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  border-radius: 6px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* 
+   Sections
+*/
+main section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* 
+   Cards (Box Model Showcase)
+   */
+.card {
+  background-color: #e6f0ff;
+  border: 2px solid #004080;
+  padding: 15px;   /* inside spacing */
+  margin: 10px 0;  /* space between cards */
+  border-radius: 4px;
+}
+
+.card.highlight {
+  background-color: #cce0ff;
+  border-color: #00264d;
+}
+
+
+  /* -- Form Styling*/
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #999;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #003366;
+}
+
+/*
+   Footer
+ */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 20px;
+  color: #666;
+}

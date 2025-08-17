@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment demo: HTML and CSS basics with box model styling.">
+  <title>CSS Box Model Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Styled Web Page</h1>
+    <p>Learning CSS basics and the Box Model</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#cards">Demo Cards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>This page shows how CSS styles text, backgrounds, and layouts. It demonstrates the Box Model—margin, border, padding, and content—by applying them to sections and card-like containers.</p>
+    </section>
+
+    <section id="cards">
+      <h2>Demo Cards</h2>
+      <div class="card">
+        <h3>Card One</h3>
+        <p>This card uses padding, margin, and a border to demonstrate the Box Model in action.</p>
+      </div>
+      <div class="card highlight">
+        <h3>Card Two</h3>
+        <p>This highlighted card has extra spacing and a background color for emphasis.</p>
+      </div>
+      <div class="card">
+        <h3>Card Three</h3>
+        <p>A simple card with consistent spacing and layout styling.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Styled Web Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
